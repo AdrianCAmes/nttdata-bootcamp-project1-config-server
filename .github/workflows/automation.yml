@@ -1,5 +1,10 @@
-on: push
 name: Deploy
+
+on:
+  push:
+    branches:
+      - master
+
 jobs:
   build-and-push:
     name: build and push image
