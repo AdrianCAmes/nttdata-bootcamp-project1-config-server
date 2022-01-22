@@ -9,6 +9,7 @@ spring:
           uri: https://github.com/AdrianCAmes/nttdata-bootcamp-config-data
           searchPaths: project-1
           default-label: main
+          force-pull: true
   security:
     user:
       name: root
